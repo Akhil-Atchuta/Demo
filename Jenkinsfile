@@ -6,15 +6,5 @@ pipeline {
                echo "hello world"
             }
         }
-        stage('Test') { 
-            steps {
-                // 
             }
-        }
-        stage('Deploy') { 
-            steps {
-                // 
-            }
-        }
-    }
 }
